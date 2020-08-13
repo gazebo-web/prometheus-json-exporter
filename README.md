@@ -95,7 +95,3 @@ curl -s "http://localhost:9116/metrics"
 
 This repository is a fork of 
 [Shiroyagicorp's prometheus-json-exporter](https://github.com/shiroyagicorp/prometheus-json-exporter).
-
-## License
-
-MIT License
