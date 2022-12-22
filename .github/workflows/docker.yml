@@ -1,5 +1,8 @@
+name: Reusable workflow example
+
 on:
-  push: ['*']
+  push: 
+    branches: ['*']
 
 jobs:
   call-workflow-passing-data:
