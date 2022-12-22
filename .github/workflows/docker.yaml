@@ -1,0 +1,6 @@
+on:
+  push: ['*']
+
+jobs:
+  call-workflow-passing-data:
+    uses: github.com/AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
