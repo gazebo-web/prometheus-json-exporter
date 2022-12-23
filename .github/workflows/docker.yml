@@ -8,6 +8,3 @@ on:
 jobs:
   build:
     uses: AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
-#     with: 
-#       docker-build-context: ./test
-#       docker-file-path: My-Custom-Dockerfile
