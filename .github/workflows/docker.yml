@@ -7,4 +7,4 @@ on:
 
 jobs:
   build:
-    uses: AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
+    uses: AlejoAsd/.github/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
