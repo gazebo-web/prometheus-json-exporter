@@ -3,6 +3,7 @@ name: Reusable workflow example
 on:
   push: 
     branches: ['*']
+    tags: ['*']
 
 jobs:
   call-workflow-docker-build-push:
