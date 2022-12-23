@@ -6,5 +6,5 @@ on:
     tags: ['*']
 
 jobs:
-  call-workflow-docker-build-push:
+  build:
     uses: AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
