@@ -9,4 +9,7 @@ on:
 
 jobs:
   docker-build-push:
-    uses: AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
+#     uses: AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo 'Github sucks'
