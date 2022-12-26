@@ -2,8 +2,8 @@ name: Build OCI
 
 on:
   push: 
-    branches: ['*']
-    tags: ['*']
+    branches: ['**']
+    tags: ['**']
 
 jobs:
   build:
