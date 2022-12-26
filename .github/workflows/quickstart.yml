@@ -1,11 +1,11 @@
 name: Build and push Docker
 
-on:
-  push: 
-    branches: 
-      - '*'
-    tags: 
-      - '*'
+on: [push]
+#   push: 
+#     branches: 
+#       - '*'
+#     tags: 
+#       - '*'
 
 jobs:
   docker-build-push:
