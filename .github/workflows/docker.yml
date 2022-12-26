@@ -1,4 +1,4 @@
-name: Build and push Docker
+name: Build OCI
 
 on:
   push: 
@@ -6,7 +6,7 @@ on:
     tags: ['**']
 
 jobs:
-  docker-build-push:
+  build:
     uses: AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
     with:
       docker-build-context: 'test/'
