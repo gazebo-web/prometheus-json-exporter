@@ -1,0 +1,10 @@
+name: Build OCI
+
+on:
+  push: 
+    branches: ['**']
+    tags: ['**']
+
+jobs:
+  build:
+    uses: AlejoAsd/.github/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
