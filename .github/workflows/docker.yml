@@ -1,4 +1,4 @@
-name: Build docker 
+name: Build and push Docker
 
 on:
   push: 
@@ -8,5 +8,5 @@ on:
       - '*'
 
 jobs:
-  build:
+  docker-build-push:
     uses: AlejoAsd/actions/.github/workflows/docker-build-push-github.yaml@feature/docker-build-push
